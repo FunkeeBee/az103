@@ -359,7 +359,7 @@
             "name": "[variables('virtualMachines_BackEnd_ServerName2')]",
             "location": "eastus2",
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_backendserver889_name'))]"
+                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_backendserver965_name'))]"
             ],
             "tags": {
                 "BeardSite": "eastus2"
@@ -401,7 +401,7 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_backendserver889_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_backendserver965_name'))]"
                         }
                     ]
                 }
